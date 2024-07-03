@@ -50,7 +50,7 @@ namespace SocialNetwork.BLL.Services
                 email = userRegistrationData.email
             };
 
-            if (this.userRepository.Create(userEntity) == 0)
+            if (userRepository.Create(userEntity) == 0)
                 throw new Exception();
 
         }

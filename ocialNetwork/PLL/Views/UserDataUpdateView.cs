@@ -32,7 +32,7 @@ namespace SocialNetwork.PLL.Views
             Console.Write("Моя любимая книга:");
             user.FavoriteBook = Console.ReadLine();
 
-            this.userService.Update(user);
+            userService.Update(user);
 
             SuccessMessage.Show("Ваш профиль успешно обновлён!");
         }
