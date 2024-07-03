@@ -2,7 +2,7 @@
 using SocialNetwork.DAL.ENtities;
 using System.Collections.Generic;
 
-namespace SocialNetwork.DAL.Repositories
+namespace SocialNetwork.DAL.Repositories 
 {
     public class FriendRepository : BaseRepository, IFriendRepository
     {
