@@ -13,10 +13,10 @@ namespace SocialNetwork.BLL.Models
 
         public Message(int id, string content, string senderEmail, string recipientEmail)
         {
-            this.Id = id;
-            this.Content = content;
-            this.SenderEmail = senderEmail;
-            this.RecipientEmail = recipientEmail;
+            Id = id;
+            Content = content;
+            SenderEmail = senderEmail;
+            RecipientEmail = recipientEmail;
         }
 
     }
